@@ -11,3 +11,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.text3{
+  border-style: double;
+  border: solid ;
+  border-color: silver;
+  margin-top: 20px;
+  margin-left: 9%;
+  margin-bottom: 20px;
+  width: 80%;
+  height: auto;
+  background:white;
+}
+
+.text3s1{
+  margin-top: 32px;
+  margin-left: 40px;
+  margin-bottom: 80px;
+}
+
+.cards-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
