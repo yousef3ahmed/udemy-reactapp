@@ -1,16 +1,198 @@
-body {
+
+* {
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  font-family: udemy sans, -apple-system, BlinkMacSystemFont, Roboto, segoe ui, Helvetica, Arial, sans-serif, apple color emoji, segoe ui emoji, segoe;
+}
+.nav-container {
+  z-index: 99999;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  height: 75px;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 8%);
+  display: flex;
+  list-style-type: none;
+  padding: 10px 15px;
+  font-weight: 400;
+  font-size: 0.8rem;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+.icon img{
+  width: 91px;
+  height: 34px;
 }
+.nav-text{
+  margin-left: 15px;
+  text-decoration: none;
+  color: #1c1d1f;
+}
+.searchbar {
+  display: flex;
+  flex-grow: 1;
+} 
+.searchbar form{
+  display: flex;
+  flex-grow: 1;
+}
+.searchbar form input{
+  height: 3px;
+ 
+  border: 1px solid #1c1d1f;
+  border-radius: 100px;
+  text-align: left;
+  padding: 22px;
+  background-color: #f7f9fa;
+  margin: 0 1.2rem;
+  display: flex;
+  flex-grow: 1;
+}
+.search-icon{
+  width: 25px;
+  height: 25px;
+  top: 25px;
+  left: 208px;
+  position:absolute;
+}
+.shopicon{
+  background-image: url('images/cart.png');
+  background-size: cover;
+  width:25px;
+  height: 25px;
+  border: none;
+  margin-left: 15px;
+  cursor:pointer;
+
+}
+
+.fill{
+  width: 100%;
+}
+
+.inpu1{
+  width: 100%;
+}
+
+.input2{
+  visibility: hidden;
+  width: 0%;
+}
+
+.login-button{
+  background-color: white;
+  width:75px;
+  height: 35px;
+  margin-left: 15px;
+  cursor:pointer;
+
+}
+.login-button:hover{
+  background-color: rgb(235, 235, 235);
+}
+.signup-button{
+  background-color: black;
+  width:75px;
+  height: 35px;
+  margin-left: 15px;
+  cursor:pointer;
+  color: white;
+
+}
+.signup-button:hover{
+  background-color: rgb(36, 35, 35);
+}
+.language{
+  width:35px;
+  height: 35px;
+  margin-left: 15px;  
+  border: solid;
+  cursor:pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.language img{
+  width: 20px;
+  height: 20px;
+}
+.language:hover{
+  background-color: rgb(235, 235, 235);
+}
+.toggle{
+  display: none;
+  align-items: left;
+  width: 20px;
+  height: 20px;
+}
+.alarm-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.alarm2-container{
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+.alarm{
+  position: relative;
+  width: 100%;
+}
+.alarm2{
+  display: none;
+  position: relative;
+}
+.text1{
+  top: 15%;
+  height: 185px;
+  background:white;
+  position:absolute;
+  /* z-index: 1; */
+  left: 12%;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 8%);
+
+}
+
+
+.text1 h1{
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 34px;
+}
+.text1 p{
+  margin-top: 10px;
+  margin-left: 20px;
+  font-size: 18px;
+}
+.text2{
+  margin-top: 40px;
+  margin-left: 110px;
+
+}
+.text2 h1{
+  font-size: 30px;
+}
+.text2 p{
+  margin-top: 10px;
+  margin-left: 15px;
+  font-size: 18px;
+}
+.kind{
+  display: flex;
+  color: rgb(130, 130, 130);
+  font-weight: bold;
+}
+.kind div{
+  margin-top: 10px;
+  margin-left: 15px;
+}
+.space{
+  margin-left: 10px;
+}
+
 
 .text3{
   border-style: double;
@@ -24,15 +206,145 @@ code {
   background:white;
 }
 
+.text3s3{
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  align-content: center;
+}
+
 .text3s1{
   margin-top: 32px;
   margin-left: 40px;
   margin-bottom: 80px;
 }
 
+.text3s1 h1{
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.explore{
+  background-color: white;
+  width:110px;
+  height: 35px;
+  font-weight: bold;
+  text-align: center;
+  cursor:pointer;
+
+}
+.explore:hover{
+  background-color: rgb(235, 235, 235);
+}
+.text3s2{
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  position: relative;
+}
+
+.text3s2 img{
+  width: 30px;
+  margin-left: 20px;
+}
+.courses{
+  top: 400px;
+  width: 1;
+  background:rgb(255, 255, 255);
+  margin-left: auto;
+  font-size: 14px;
+}
+
+.coursesP{
+  margin-top: 5px;
+  font-size: 12px;
+}
+
+/* -------------------------------------------------------------- */
+
+
+
 .cards-wrapper {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
+.card img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.card {
+  margin: 0 0.5em;
+  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+  border: none;
+  border-radius: 0;
+}
 
+
+.carousel-control-prev-icon {
+  background-image: url('https://cdn0.iconfinder.com/data/icons/user-interface-solid-23/24/Arrow_Left_Square-512.png') !important;
+ }
+ 
+.carousel-control-next-icon {
+   background-image: url("https://cdn0.iconfinder.com/data/icons/user-interface-solid-23/24/Arrow_Right_Square-512.png") !important;
+ }
+
+
+/* -------------------------------------------------------------- */
+
+
+@media screen and (max-width: 1000px ) {
+  .nav-text{
+      display: none;
+  }
+  .searchbar{
+      display: none;
+  }
+  .language{
+      display: none;
+  }
+  .signup-button{
+      display: none;
+  }
+  .login-button{
+      display: none;
+  }
+  .shopicon{
+      display: none;
+  }
+  .toggle{
+      display: flex;
+  }
+  .nav-container{
+      justify-content: center;
+      display: flex;
+  }
+  .icon{
+      display: flex;
+      margin-left: 40%;
+  }
+  .alarm{
+      display: none;
+  }
+  .alarm2{
+      display: flex;
+  }
+  .text1{
+      width:350px;
+      height: 185px;
+      background:white;
+      margin: 0;
+      position: relative;
+      left: 0.5%;
+      margin-top: -20px;
+  }
+  .text3s3{
+      display:flex
+
+  }
+  .alarm-container{
+      margin-bottom: 250px;
+  }
+  .search-icon{
+      display: none;
+  }
+}

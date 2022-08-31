@@ -1,5 +1,5 @@
 import Course from './Cource';
-import './index.css';
+import '../index.css';
 
 let Python = [  
 
