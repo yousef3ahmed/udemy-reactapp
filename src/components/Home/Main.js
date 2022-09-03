@@ -1,7 +1,7 @@
 import React from 'react'
-import '../index.css';
-import alarm from "../images/alarm.png";
-import alarm2 from "../images/alarm2.png";
+import '../../index.css';
+import alarm from "../../images/alarm.png";
+import alarm2 from "../../images/alarm2.png";
 
 function Main() {
   return (

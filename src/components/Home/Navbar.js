@@ -1,8 +1,9 @@
 import React from 'react';
-import '../index.css'
-import Udemy_logo from "../images/Udemy_logo.png";
-import toggle from "../images/toggle.png";
-import Lang from "../images/lang.png";
+import '../../index.css';
+
+import Udemy_logo from "../../images/Udemy_logo.png";
+import toggle from "../../images/toggle.png";
+import Lang from "../../images/lang.png";
 
 function Navbar() {
   return (
