@@ -3,7 +3,8 @@ import Navbar from '../Home/Navbar';
 import NavbarSection from './NavbarSection';
 import About from './About';
 import Footer from './Footer';
-
+import Content from './content/Content';
+import '../../index.css'
 
 
 function FinalProduct() {
@@ -11,7 +12,14 @@ function FinalProduct() {
     <>
         <Navbar></Navbar>
         <NavbarSection></NavbarSection>
-        <About></About>
+        <div className='MerAll' >
+          
+          <About></About>
+          <h4 className='dowNM' > <b> Course content </b>  </h4>
+          <Content></Content>
+
+        </div>
+ 
         <Footer></Footer>
     </>
   );

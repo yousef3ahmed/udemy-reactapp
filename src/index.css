@@ -291,12 +291,19 @@
   border-color: silver;
   border-width: 1px;
   margin-top: 40px;
-  margin-left: 9%;
+  /* margin-left: 9%; */
   margin-bottom: 20px;
   width: 55%;
   height: 150px;
   background:white;
  
+}
+
+.smallCon{
+  width: 55%;
+}
+.MerAll{
+  margin-left: 9%;
 }
 
 .top{
@@ -370,6 +377,26 @@
   margin-left: 4%;
   height: 50px;
   width: 100px;
+}
+
+.WarrpCol{
+  display: flex;
+  flex-direction: column;
+}
+
+.restyle{
+  text-decoration: none;
+  padding: 10px;
+  color: #1c1d1f;
+}
+
+.dowN{
+  margin-bottom: 10px;
+}
+
+.dowNM{
+  margin-bottom: 30px;
+  margin-top: 40px;
 }
 
 /* -------------------------------------------------------------- */
