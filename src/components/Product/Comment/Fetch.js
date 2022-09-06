@@ -1,6 +1,6 @@
 
-import React from 'react'
-import NeastedContent from './NeastedContent';
+import React from 'react';
+import Item from './Item';
 
 
 class Fetch extends React.Component {
@@ -18,7 +18,7 @@ class Fetch extends React.Component {
     // ComponentDidMount is used to
     // execute the code 
     componentDidMount() {
-        fetch("http://localhost:5400/content")
+        fetch("http://localhost:5400/reviews")
             .then((res) => res.json())
             .then((json) => {
                 this.setState({
@@ -37,7 +37,7 @@ class Fetch extends React.Component {
         <>
             {
                 items.map((item , index) => (  
-                 <NeastedContent  id = { index } title = { item[0][0] }  Arrinside = { item[1] } ></NeastedContent>   
+                    <Item name = { item.name }  content = { item.content } ></Item>
                 ))  
             }
 

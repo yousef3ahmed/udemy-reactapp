@@ -299,9 +299,15 @@
  
 }
 
+.fit{
+  width: 100%;
+}
+
 .smallCon{
   width: 55%;
 }
+
+
 .MerAll{
   margin-left: 9%;
 }
@@ -397,6 +403,22 @@
 .dowNM{
   margin-bottom: 30px;
   margin-top: 40px;
+}
+
+.toLeft{
+  margin-left: 5px;
+}
+
+.link-muted { color: #aaa; } .link-muted:hover { color: #1266f1; }
+
+.comment{
+  width: 55%;
+  border-style: double;
+  border: solid ;
+  border-color: silver;
+  border-width: 1px;
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
 
 /* -------------------------------------------------------------- */

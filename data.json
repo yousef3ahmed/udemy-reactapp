@@ -437,5 +437,49 @@
         ]
       ],
       [["What's Next?"], ["Up and Beyond!"]]
+    ],
+    "reviews": [
+      {
+        "id": 1,
+        "name": "Asif H.",
+        "rate": "3",
+        "content": "Sometimes confusing but was able to clarify. Good job nonetheless."
+      },
+      {
+        "id": 2,
+        "name": "M.S.Swaroop",
+        "rate": "4",
+        "content": "the course is specialized so that we learn ourselves deeply,simple and easy."
+      },
+      {
+        "id": 3,
+        "name": "Saurish R.",
+        "rate": "5",
+        "content": "In depth concepts of python have been clearly explained. Good chemistry between student and instructor. Fantastic course. Completed every vid and had lot of fun."
+      },
+      {
+        "id": 4,
+        "name": "Shiristi",
+        "rate": "5",
+        "content": "I can't say as i have not taken that many classes yet but so far it is good. edited( so yeah it was a journey for me many things happen but i am glad they did and also grateful to the person who is guiding me and thanks udemy for these courses really appreciate it !!!)"
+      },
+      {
+        "id": 5,
+        "name": "Ejeshi G.",
+        "rate": "4",
+        "content": "teacher is good and direct, though not prompt at responding to questions and enquiries."
+      },
+      {
+        "id": 6,
+        "name": "Shiristi",
+        "rate": "5",
+        "content": "I can't say as i have not taken that many classes yet but so far it is good. edited( so yeah it was a journey for me many things happen but i am glad they did and also grateful to the person who is guiding me and thanks udemy for these courses really appreciate it !!!)"
+      },
+      {
+        "id": 7,
+        "name": "Asif H.",
+        "rate": "3",
+        "content": "Sometimes confusing but was able to clarify. Good job nonetheless."
+      }
     ]
 }
