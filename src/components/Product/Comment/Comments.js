@@ -4,7 +4,13 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Item from './Item';
 import Fetch from './Fetch';
 
+import { Routes, Route, useParams } from "react-router-dom";
+
 function Comments() {
+  
+  let params = useParams();
+  
+  
   return (
 
             <div className='comment' >
@@ -13,7 +19,7 @@ function Comments() {
                     <h4 className="mb-0">Recent comments</h4>
                     <p className="fw-light mb-4 pb-2">Latest Comments section by users</p>
 
-                    <Fetch></Fetch>
+                    <Fetch id = { params.id } ></Fetch>
 
                 </div>
       

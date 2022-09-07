@@ -1,13 +1,16 @@
 import 'bootstrap/dist/css/bootstrap.css';
 import React from 'react';
-
+import { NavLink } from 'react-router-dom';
+import '../../index.css';
 
 
 
 function Course( props ){
     
-    console.log( "FFFFFFFFFFFFFFFFFFFFFFFF" ) ;
+   
     console.log( props.Description );
+    
+    let ID_ = props.id;
 
     return(
 
@@ -16,7 +19,11 @@ function Course( props ){
             <div className="card-body">
                 <h5 className = "card-title">{ props.Title } </h5>
                 <p className="card-text">{ props.Description } </p>
-                <a href="#" className="btn btn-primary">Go somewhere</a>
+                
+                <NavLink to = {`/product/${ID_}`} className = 'W'  >
+                    <a href="#" className="btn btn-primary">To More Details</a>
+                </NavLink>
+                
             </div>
         </div>
 

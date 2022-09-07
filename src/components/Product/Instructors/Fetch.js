@@ -1,6 +1,6 @@
 
-import React from 'react'
-import NeastedContent from './NeastedContent';
+import React from 'react';
+import Item from './Item';
 
 
 class Fetch extends React.Component {
@@ -35,21 +35,21 @@ class Fetch extends React.Component {
    
         return (
         <>
-            {
-                items.map( ( item , index) => {
-                    
-                    if( item.id == this.props.id ){
-                        return(
-                            item["lectures"].map(( vals , indx ) =>{
-                                return(
-                                    <NeastedContent  id = { indx } title = { vals.title }  Arrinside = { vals.lessons } ></NeastedContent>
-                                )
-                                
-                            })
-                        )
-                    }
-                      
-                }) 
+            {     
+                items.map( ( item , index ) =>{
+
+                        if( this.props.id == item.id ){
+                            return(
+                                item["instructors"].map(( vals , indx ) =>{
+                                    return(
+                                        <Item data = { vals } ></Item>
+                                    )
+                                    
+                                })
+                            )
+                        }
+                })
+
             }
 
         </>

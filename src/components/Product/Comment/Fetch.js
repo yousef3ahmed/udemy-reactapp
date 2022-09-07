@@ -3,6 +3,8 @@ import React from 'react';
 import Item from './Item';
 
 
+
+
 class Fetch extends React.Component {
    
     // Constructor 
@@ -18,7 +20,7 @@ class Fetch extends React.Component {
     // ComponentDidMount is used to
     // execute the code 
     componentDidMount() {
-        fetch("http://localhost:5400/reviews")
+        fetch("http://localhost:5400/Python")
             .then((res) => res.json())
             .then((json) => {
                 this.setState({
@@ -32,13 +34,24 @@ class Fetch extends React.Component {
         const { DataisLoaded, items } = this.state;
         if (!DataisLoaded) return <div>
             <h1> Pleses wait some time.... </h1> </div> ;
-   
+
+       
         return (
         <>
-            {
-                items.map((item , index) => (  
-                    <Item name = { item.name }  content = { item.content } ></Item>
-                ))  
+            {     
+                items.map( ( item , index ) =>{
+
+                        if( this.props.id == item.id ){
+                            return(
+                                item["reviewers"].map(( vals , indx ) =>{
+                                    return(
+                                        <Item name = { vals.name }  content = { vals.review } ></Item>
+                                    )
+                                })
+                            )
+                        }
+                })
+
             }
 
         </>

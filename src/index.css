@@ -263,7 +263,7 @@
 .NavbarSection{
   background-color: #1c1d1f;
   width: 100%;
-  height: 300px;
+  
 }
 
 .NavbarSection .margin-md{
@@ -291,10 +291,8 @@
   border-color: silver;
   border-width: 1px;
   margin-top: 40px;
-  /* margin-left: 9%; */
   margin-bottom: 20px;
   width: 55%;
-  height: 150px;
   background:white;
  
 }
@@ -321,6 +319,7 @@
 .mar{
   margin-left: 20px;
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .mar span{
@@ -476,7 +475,113 @@
   background-color: #1c1d1f;
 }
 
+.instructors{
+  width: 55%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 
+.insP{
+  font-size: 16px;
+  color: rgb(146, 139, 139);
+}
+
+.insDup{
+  display: flex;
+  flex-direction: row;
+  height: 112px;
+  width: 100%;
+}
+
+.sora{
+  height: 100%;
+  width: 60px;
+}
+
+.instMar{
+  margin-left: 60px;
+}
+
+.instMarP{
+  font-size: 14px;
+  margin: 0px 0px 0px 16px;
+}
+
+.instMarPP{
+  font-size: 14px;
+  margin:16px;
+}
+
+
+.instMarDiv{
+  display: flex;
+  flex-direction: row;
+  margin: 0px ;
+  height: 30px;
+}
+
+.PP{
+  margin-left: 13px;
+}
+
+.Requir{
+  width: 55%;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.Descriptions{
+  width: 55%;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.desc{
+  font-size: 14px;
+  margin: 8px 0px 0px;
+}
+
+.Create{
+  width: 55%;
+}
+
+.CreateDi{
+  display: flex;
+  flex-direction: row;
+ 
+}
+
+.CreateDiD{
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 40px;
+}
+
+.Down{
+  margin-bottom: 20px;
+}
+
+.CW{
+  color: #f7f9fa;
+  margin-left: 5px;
+  font-size: 14px;
+}
+
+.CWW{
+  color: #f7f9fa;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.W{
+  color: #f7f9fa;
+  font-size: 14px;
+}
+
+.C{
+  font-size: 14px;
+}
 /* -------------------------------------------------------------- */
 
 

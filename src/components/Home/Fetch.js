@@ -38,7 +38,7 @@ class Fetch extends React.Component {
         <>
             {
                 items.map((item) => ( 
-                    <Course  Description = { item.Description } Image = { item.Image } Title = { item.Title }  ></Course>
+                    <Course id = { item.id }  Description = { item.Description } Image = { item.Image } Title = { item.Title }  ></Course>
                 ))
             }
         </>

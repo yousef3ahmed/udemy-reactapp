@@ -17,7 +17,7 @@ root.render(
   <BrowserRouter>
     <Routes>
        <Route path="/" element={<FinalHome />} />
-       <Route path="/product" element={<FinalProduct />} />
+       <Route path="/product/:id" element={<FinalProduct />} />
     </Routes>
   </BrowserRouter>
 

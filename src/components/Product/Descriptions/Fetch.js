@@ -1,6 +1,7 @@
 
-import React from 'react'
-import NeastedContent from './NeastedContent';
+import React from 'react';
+
+import '../../../index.css'
 
 
 class Fetch extends React.Component {
@@ -32,24 +33,24 @@ class Fetch extends React.Component {
         const { DataisLoaded, items } = this.state;
         if (!DataisLoaded) return <div>
             <h1> Pleses wait some time.... </h1> </div> ;
-   
+
+       
         return (
         <>
-            {
-                items.map( ( item , index) => {
-                    
-                    if( item.id == this.props.id ){
-                        return(
-                            item["lectures"].map(( vals , indx ) =>{
-                                return(
-                                    <NeastedContent  id = { indx } title = { vals.title }  Arrinside = { vals.lessons } ></NeastedContent>
-                                )
-                                
-                            })
-                        )
-                    }
-                      
-                }) 
+            {     
+                items.map( ( item , index ) =>{
+
+                        if( this.props.id == item.id ){
+                            return(
+                                item["descriptions"].map(( vals , indx ) =>{
+                                    return(
+                                        <p className='desc' > { vals } </p>
+                                    )
+                                })
+                            )
+                        }
+                })
+
             }
 
         </>
