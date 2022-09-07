@@ -421,6 +421,62 @@
   margin-bottom: 20px;
 }
 
+.star{
+  margin-left: 80px;
+}
+
+.feedback{
+  width: 55%;
+
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.feedall{
+  width: 100%;
+  display: flex ;
+  flex-direction: row;
+  margin-bottom: 10px;
+  
+}
+
+.feed{
+  width: 70%;
+  background-color: #aaa;
+  height: 10px;
+}
+
+.f85{
+  width: 85%;
+  height: 100%;
+  background-color: #1c1d1f;
+}
+
+.f75{
+  width: 75%;
+  height: 100%;
+  background-color: #1c1d1f;
+}
+
+.f50{
+  width: 50%;
+  height: 100%;
+  background-color: #1c1d1f;
+}
+
+.f25{
+  width: 25%;
+  height: 100%;
+  background-color: #1c1d1f;
+}
+
+.f10{
+  width: 10%;
+  height: 100%;
+  background-color: #1c1d1f;
+}
+
+
 /* -------------------------------------------------------------- */
 
 
@@ -442,6 +498,10 @@
   border-radius: 0;
 }
 
+
+.checked {
+  color: orange;
+}
 
 .carousel-control-prev-icon {
   background-image: url('https://cdn0.iconfinder.com/data/icons/user-interface-solid-23/24/Arrow_Left_Square-512.png') !important;
