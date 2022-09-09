@@ -26,7 +26,6 @@ function Course( props ){
                 
             </div>
         </div>
-
     );
 }
 

@@ -292,7 +292,7 @@
   border-width: 1px;
   margin-top: 40px;
   margin-bottom: 20px;
-  width: 55%;
+  
   background:white;
  
 }
@@ -302,7 +302,7 @@
 }
 
 .smallCon{
-  width: 55%;
+  
 }
 
 
@@ -411,7 +411,7 @@
 .link-muted { color: #aaa; } .link-muted:hover { color: #1266f1; }
 
 .comment{
-  width: 55%;
+  
   border-style: double;
   border: solid ;
   border-color: silver;
@@ -425,7 +425,7 @@
 }
 
 .feedback{
-  width: 55%;
+  
 
   margin-top: 40px;
   margin-bottom: 20px;
@@ -476,7 +476,7 @@
 }
 
 .instructors{
-  width: 55%;
+  
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -525,13 +525,13 @@
 }
 
 .Requir{
-  width: 55%;
+  
   margin-bottom: 30px;
   margin-top: 30px;
 }
 
 .Descriptions{
-  width: 55%;
+  
   margin-bottom: 30px;
   margin-top: 30px;
 }
@@ -542,7 +542,7 @@
 }
 
 .Create{
-  width: 55%;
+  
 }
 
 .CreateDi{
@@ -582,6 +582,48 @@
 .C{
   font-size: 14px;
 }
+
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  right: 0;
+  padding: 5px;
+  border-style: double;
+  border: solid ;
+  border-color: silver;
+  border-width: 1px;
+  width: 40%;
+  height: 400px;
+
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.BUtn{
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 10px;
+}
+
+
+.FlayP{
+  font-size: 12px;
+  text-align: center;
+}
+.toStaky{
+  display: flex;
+  flex-direction: row;
+}
+
+.Weg{
+  width: 100%;
+}
+
+
+
 /* -------------------------------------------------------------- */
 
 
