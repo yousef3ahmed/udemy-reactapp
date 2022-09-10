@@ -6,28 +6,74 @@
   font-family: udemy sans, -apple-system, BlinkMacSystemFont, Roboto, segoe ui, Helvetica, Arial, sans-serif, apple color emoji, segoe ui emoji, segoe;
 }
 .nav-container {
-  z-index: 99999;
-  position: relative;
+ 
   align-items: center;
   justify-content: center;
+  position: relative;
+  z-index: 99999;
   height: 75px;
   box-shadow: 0 2px 4px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 8%);
+  flex-direction: row;
   display: flex;
-  list-style-type: none;
-  padding: 10px 15px;
   font-weight: 400;
   font-size: 0.8rem;
+  width: 100%;
 }
 
+.BTNN{
+  border: none;
+  background-color: #ffffff;
+  width: 10%;
+}
+
+.BTNN2{
+  display: none;
+}
+
+.WW{
+  border: none;
+  background-color: #ffffff;
+  width: 10%;
+}
+
+.input1{
+  width: 80%;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 45px;
+  background-color: rgb(245, 245, 245);
+  border-width: 1px;
+  border-radius: 70px;
+  align-items: center;
+  justify-content: center;
+}
+
+.mySearch{
+  width: 70%;
+  height: 70%;
+  background-color: #ffffff;
+}
+
+.iconN{
+  width: 30px;
+  height: 34px;
+}
 
 .icon img{
-  width: 91px;
+  width: 80px;
   height: 34px;
+  margin-left:10px ;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
 }
 .nav-text{
   margin-left: 15px;
   text-decoration: none;
   color: #1c1d1f;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
 }
 .searchbar {
   display: flex;
@@ -64,11 +110,15 @@
   border: none;
   margin-left: 15px;
   cursor:pointer;
+  flex-grow: 1;
 
 }
 
 .fill{
-  width: 100%;
+  width: auto;
+  flex-grow: 10;
+  margin-left: 20px;
+  display: flex;
 }
 
 .inpu1{
@@ -86,6 +136,7 @@
   height: 35px;
   margin-left: 15px;
   cursor:pointer;
+  flex-grow: 1;
 
 }
 .login-button:hover{
@@ -98,6 +149,7 @@
   margin-left: 15px;
   cursor:pointer;
   color: white;
+  flex-grow: 1;
 
 }
 .signup-button:hover{
@@ -121,6 +173,7 @@
   background-color: rgb(235, 235, 235);
 }
 .toggle{
+  flex-grow: 1;
   display: none;
   align-items: left;
   width: 20px;
@@ -577,6 +630,12 @@
 .W{
   color: #f7f9fa;
   font-size: 14px;
+  flex-grow: 1;
+}
+
+.WNav{
+  font-size: 14px;
+  color: #f7f9fa;
 }
 
 .C{
@@ -590,21 +649,15 @@
   top: 0;
   right: 0;
   padding: 5px;
-  border-style: double;
-  border: solid ;
-  border-color: silver;
-  border-width: 1px;
-  width: 40%;
-  height: 400px;
-
+  height: 650px;
+  width: 50%;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 8%);
   margin-left: 10%;
   margin-right: 10%;
 }
 
 .BUtn{
   width: 90%;
-  margin-left: 5%;
-  margin-right: 5%;
   margin-bottom: 10px;
 }
 
@@ -612,6 +665,12 @@
 .FlayP{
   font-size: 12px;
   text-align: center;
+}
+
+.FlayPPP{
+  font-size: 12px;
+  text-align: center;
+  color: #f7f9fa;
 }
 .toStaky{
   display: flex;
@@ -622,7 +681,63 @@
   width: 100%;
 }
 
+.Margin-all{
+  margin: 20px;
+}
 
+.FlyRow{
+  display: flex;
+  flex-direction: row;
+  height: 16px;
+  margin-bottom: 10px;
+}
+
+.FlyCol{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+
+.FlyColl{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+.resetA{
+  color: #1c1d1f;
+  margin-left: 10px;
+  font-size: 15px;
+}
+
+.resetAA{
+  color: #ffffff;
+  flex-grow: 1;
+  font-size: 15px;
+}
+
+.MaeDown{
+  padding-bottom: 10px;
+}
+
+.FlayPP{
+  margin-left: 20px;
+  font-size: 13px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.FlayPPP{
+  font-size: 15px;
+}
+
+.respon{
+  display: none;
+}
 
 /* -------------------------------------------------------------- */
 
@@ -631,6 +746,7 @@
 .cards-wrapper {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
@@ -662,7 +778,27 @@
 /* -------------------------------------------------------------- */
 
 
+
+@media screen and (max-width: 1000px ){
+  .respon{
+    display: block;
+  }
+}
+
 @media screen and (max-width: 1000px ) {
+  
+  .WW{
+    display: none;
+  }
+  .BTNN{
+    display: none;
+  }
+  .input1{
+    display: none;
+  }
+  .sticky{
+    display: none;
+  }
   .nav-text{
       display: none;
   }

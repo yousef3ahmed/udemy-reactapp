@@ -1464,6 +1464,362 @@
             "You will start by learning about classes, including defining a class, class attributes, and working with class and instance data. From there, David will teach you about inheritance and polymorphism. This video tutorial also covers advanced features, such as implementing core syntax, subclassing built-ins, and new style classes. You will also learn about exceptions and object serialization. Finally, David will teach you about efficiency and testing, including debugging, logging, and benchmarking.",
             "Once you have completed this computer based training course, you will be fully capable of designing your own Python classes, as well as implementing object-oriented programming concepts in Python."
           ]
+        },
+        { "id": 6,
+        "Title": "Jose Portilla",
+        "Description": "Learning Python for Data Analysis and Visualization" ,
+        "Image":"https://img-c.udemycdn.com/course/750x422/396876_cc92_7.jpg",
+          "title": "Learning Python for Data Analysis and Visualization",
+          "description": "Learn python and how to use it to analyze,visualize and present data. Includes tons of sample code and hours of video!",
+          "link": "/course/learning-python-for-data-analysis-and-visualization/",
+          "img": "https://img-c.udemycdn.com/course/240x135/396876_cc92_7.jpg",
+          "instructors": [
+            {
+              "id": "l7s3zcw4u2b2fu5fjn",
+              "name": "Jose Portilla",
+              "job": "Head of Data Science at Pierian Training",
+              "img": "https://img-c.udemycdn.com/user/200_H/9685726_67e7_4.jpg",
+              "rating": 4.6,
+              "reviews": 939702,
+              "students": 3009879,
+              "courses": 54,
+              "description": "Jose Marcial Portilla has a BS and MS in Mechanical Engineering from Santa Clara University and years of experience as a professional instructor and trainer for Data Science, Machine Learning and Python Programming. He has publications and patents in various fields such as microfluidics, materials science, and data science. Over the course of his career he has developed a skill set in analyzing data and he hopes to use his experience in teaching and data science to help other people learn the power of programming, the ability to analyze data, and the skills needed to present the data in clear and beautiful visualizations. Currently he works as the Head of Data Science for Pierian Training and provides in-person data science and python programming training courses to employees working at top companies, including General Electric, Cigna, The New York Times, Credit Suisse, McKinsey and many more. Feel free to check out the website link to find out more information about training offerings.\n\nShow more"
+            }
+          ],
+          "rating": 4.4,
+          "enrollments": 191470,
+          "totalreviews": 18113,
+          "price": 1599.99,
+          "oldprice": 1599.99,
+          "lastupdated": "9/2019",
+          "lectures": [
+            {
+              "id": "l7s3zcsf3wf8spurcy4",
+              "title": "Intro to Course and Python",
+              "lessons": [
+                "Course Intro",
+                "Course FAQs"
+              ]
+            },
+            {
+              "id": "l7s3zcsq698q4p9xsau",
+              "title": "Setup",
+              "lessons": [
+                "Installation Setup and Overview",
+                "IDEs and Course Resources",
+                "iPython/Jupyter Notebook Overview"
+              ]
+            },
+            {
+              "id": "l7s3zct0cqe1q6ormp9",
+              "title": "Learning Numpy",
+              "lessons": [
+                "Intro to numpy",
+                "Creating arrays",
+                "Using arrays and scalars",
+                "Indexing Arrays",
+                "Array Transposition",
+                "Universal Array Function",
+                "Array Processing",
+                "Array Input and Output"
+              ]
+            },
+            {
+              "id": "l7s3zct9mrmiu66t2w",
+              "title": "Intro to Pandas",
+              "lessons": [
+                "Series",
+                "DataFrames",
+                "Index objects",
+                "Reindex",
+                "Drop Entry",
+                "Selecting Entries",
+                "Data Alignment",
+                "Rank and Sort",
+                "Summary Statistics",
+                "Missing Data",
+                "Index Hierarchy"
+              ]
+            },
+            {
+              "id": "l7s3zcti11pb3wo1zdh8",
+              "title": "Working with Data: Part 1",
+              "lessons": [
+                "Reading and Writing Text Files",
+                "JSON with Python",
+                "HTML with Python",
+                "Microsoft Excel files with Python"
+              ]
+            },
+            {
+              "id": "l7s3zctrijboocng949",
+              "title": "Working with Data: Part 2",
+              "lessons": [
+                "Merge",
+                "Merge on Index",
+                "Concatenate",
+                "Combining DataFrames",
+                "Reshaping",
+                "Pivoting",
+                "Duplicates in DataFrames",
+                "Mapping",
+                "Replace",
+                "Rename Index",
+                "Binning",
+                "Outliers",
+                "Permutation"
+              ]
+            },
+            {
+              "id": "l7s3zctzgg04qi94y1m",
+              "title": "Working with Data: Part 3",
+              "lessons": [
+                "GroupBy on DataFrames",
+                "GroupBy on Dict and Series",
+                "Aggregation",
+                "Splitting Applying and Combining",
+                "Cross Tabulation"
+              ]
+            },
+            {
+              "id": "l7s3zcu7or65i7167o",
+              "title": "Data Visualization",
+              "lessons": [
+                "Installing Seaborn",
+                "Histograms",
+                "Kernel Density Estimate Plots",
+                "Combining Plot Styles",
+                "Box and Violin Plots",
+                "Regression Plots",
+                "Heatmaps and Clustered Matrices"
+              ]
+            },
+            {
+              "id": "l7s3zcufid6sqeliin",
+              "title": "Example Projects.",
+              "lessons": [
+                "Data Projects Preview",
+                "Intro to Data Projects",
+                "Titanic Project - Part 1",
+                "Titanic Project - Part 2",
+                "Titanic Project - Part 3",
+                "Titanic Project - Part 4",
+                "Intro to Data Project - Stock Market Analysis",
+                "Data Project - Stock Market Analysis Part 1",
+                "Data Project - Stock Market Analysis Part 2",
+                "Data Project - Stock Market Analysis Part 3",
+                "Data Project - Stock Market Analysis Part 4",
+                "Data Project - Stock Market Analysis Part 5",
+                "Data Project - Intro to Election Analysis",
+                "Data Project - Election Analysis Part 1",
+                "Data Project - Election Analysis Part 2",
+                "Data Project - Election Analysis Part 3",
+                "Data Project - Election Analysis Part 4"
+              ]
+            },
+            {
+              "id": "l7s3zcuri5k42cz499",
+              "title": "Machine Learning",
+              "lessons": [
+                "Introduction to Machine Learning with SciKit Learn",
+                "Linear Regression Part 1",
+                "Linear Regression Part 2",
+                "Linear Regression Part 3",
+                "Linear Regression Part 4",
+                "Logistic Regression Part 1",
+                "Logistic Regression Part 2",
+                "Logistic Regression Part 3",
+                "Logistic Regression Part 4",
+                "Multi Class Classification Part 1 - Logistic Regression",
+                "Multi Class Classification Part 2 - k Nearest Neighbor",
+                "Support Vector Machines Part 1",
+                "Support Vector Machines - Part 2",
+                "Naive Bayes Part 1",
+                "Naive Bayes Part 2",
+                "Decision Trees and Random Forests",
+                "Natural Language Processing Part 1",
+                "Natural Language Processing Part 2",
+                "Natural Language Processing Part 3",
+                "Natural Language Processing Part 4"
+              ]
+            },
+            {
+              "id": "l7s3zcv0vx2pt8va3v",
+              "title": "Appendix: Statistics Overview",
+              "lessons": [
+                "Intro to Appendix B",
+                "Discrete Uniform Distribution",
+                "Continuous Uniform Distribution",
+                "Binomial Distribution",
+                "Poisson Distribution",
+                "Normal Distribution",
+                "Sampling Techniques",
+                "T-Distribution",
+                "Hypothesis Testing and Confidence Intervals",
+                "Chi Square Test and Distribution",
+                "Bayes Theorem"
+              ]
+            },
+            {
+              "id": "l7s3zcv8ytsg7svfmzs",
+              "title": "Appendix: SQL and Python",
+              "lessons": [
+                "Introduction to SQL with Python",
+                "SQL - SELECT,DISTINCT,WHERE,AND & OR",
+                "SQL WILDCARDS, ORDER BY, GROUP BY and Aggregate Functions"
+              ]
+            },
+            {
+              "id": "l7s3zcvgkkewl8b743h",
+              "title": "Appendix: Web Scraping with Python",
+              "lessons": [
+                "Web Scraping Part 1",
+                "Web Scraping Part 2"
+              ]
+            },
+            {
+              "id": "l7s3zcvoq1wcbpcqk5a",
+              "title": "Appendix: Python Special Offers",
+              "lessons": [
+                "Python Overview Part 1",
+                "Python Overview Part 2",
+                "Python Overview Part 3"
+              ]
+            },
+            {
+              "id": "l7s3zcvwf6rzamp0hm7",
+              "title": "BONUS SECTION: THANK YOU!",
+              "lessons": [
+                "Bonus Lecture"
+              ]
+            }
+          ],
+          "reviewers": [
+            {
+              "id": "l7s3zcw452qs8u2c6cj",
+              "name": "Bryan P.",
+              "initials": "BP",
+              "rating": 2.5,
+              "timeago": "3 weeks ago",
+              "review": "His voice in each video can either be audible or barely audible. If it was consistent then it would be fine, but I have to keep adjusting the volume."
+            },
+            {
+              "id": "l7s3zcw5ir02k6j3fu",
+              "name": "Redon D.",
+              "initials": "RD",
+              "rating": 4,
+              "timeago": "3 weeks ago",
+              "review": "I found the course to be amazing, the instructor was clear and easy to follow. The instructions were easily available and covered almost every thing I could have asked for. The Q&A section was helpful as well. One negative aspect was that it did not exhaust all the topic especially from the data visualization were matplotlib did not even have a section."
+            },
+            {
+              "id": "l7s3zcw5fe6kf960ek",
+              "name": "Tanishq",
+              "initials": "T",
+              "rating": 5,
+              "timeago": "2 months ago",
+              "review": "course is good but please update these course because many of the code which is being used has been updated and some of the code doesn't work because of updating please mention these kind of thing while purchase because if you provide a updated course with 500 i thing you sale will boost up may be you ca raise price around 1500 rs we can spend that much of money for knowledge"
+            },
+            {
+              "id": "l7s3zcw5qcgink5cr49",
+              "name": "Jerell S.",
+              "initials": "JS",
+              "rating": 5,
+              "timeago": "3 months ago",
+              "review": "Instructor was very clear and knowledgeable. I was able to understand all the concepts and apply them. The course was a little outdated but I was still able to get almost everything to work."
+            },
+            {
+              "id": "l7s3zcw5mhpwg46m0m",
+              "name": "Sechaba M.",
+              "initials": "SM",
+              "rating": 4.5,
+              "timeago": "5 months ago",
+              "review": "Really enjoyed the course, being a total beginner it really set a good foundation."
+            },
+            {
+              "id": "l7s3zcw5h4vvlba8kbk",
+              "name": "Mouayad M.",
+              "initials": "MM",
+              "rating": 2,
+              "timeago": "a month ago",
+              "review": "Felt like many code parts / concepts were skimmed over with no explanation whatsoever - I understand that many concepts were previously explained or encouraged to further explore by yourself, however some code parts should've been atleast explained to some degree. Big fan of Jose in general from this other courses, I think he's a great tutor"
+            },
+            {
+              "id": "l7s3zcw5qstgkkxd96",
+              "name": "Justin M.",
+              "initials": "JM",
+              "rating": 5,
+              "timeago": "4 weeks ago",
+              "review": "Awesome teacher! I'm enjoying the presented course material and learning a lot. Thank you Jose !!!!!"
+            },
+            {
+              "id": "l7s3zcw5quz4r04xm",
+              "name": "Ferdinand I.",
+              "initials": "FI",
+              "rating": 5,
+              "timeago": "a month ago",
+              "review": "I haven't even finished the course actually, but I must commend its so so amazing and its worth it."
+            },
+            {
+              "id": "l7s3zcw5q8hjxhvdiz",
+              "name": "Nathan K.",
+              "initials": "NK",
+              "rating": 1,
+              "timeago": "3 months ago",
+              "review": "Very dry lectures, he talks about code without explaining what each means. Plus a lot of the code is out of date and invalid. There are also loads of typos in the Jupyter Notebook that just make the course seem sloppy. Would definitely not recommend buying this one in 2022."
+            },
+            {
+              "id": "l7s3zcw5wi02loe0cjp",
+              "name": "Bhuvana R.",
+              "initials": "BR",
+              "rating": 3,
+              "timeago": "3 months ago",
+              "review": "Lots of codes relate to Python2 and it has been very difficult to search constantly search for the replacement for the deprecated commands"
+            },
+            {
+              "id": "l7s3zcw5vl43we0p4k",
+              "name": "Abraham B.",
+              "initials": "",
+              "rating": 4,
+              "timeago": "3 months ago",
+              "review": "many of the syntax are old...may renew them :D"
+            },
+            {
+              "id": "l7s3zcw50y3zntnco1b",
+              "name": "Ilaria B.",
+              "initials": "IB",
+              "rating": 5,
+              "timeago": "4 months ago",
+              "review": "Yes, courses broken down in small digestible videos, easy to follow along"
+            }
+          ],
+          "requirements": [
+            "Basic math skills.",
+            "Basic to Intermediate Python Skills",
+            "Have a computer (either Mac, Windows, or Linux)",
+            "Desire to learn!"
+          ],
+          "descriptions": [
+            "\n",
+            "PLEASE READ BEFORE ENROLLING: ",
+            "1.) THERE IS AN UPDATED VERSION OF THIS COURSE: ",
+            "\"PYTHON FOR DATA SCIENCE AND MACHINE LEARNING BOOTCAMP\" ",
+            "2.) IF YOU ARE A COMPLETE BEGINNER IN PYTHON-CHECK OUT MY OTHER COURSE \"COMPLETE PYTHON MASTERCLASS JOURNEY\"!",
+            "\n",
+            "CLICK ON MY PROFILE TO FIND IT. (PLEASE WATCH THE FIRST PROMO VIDEO ON THIS PAGE FOR MORE INFO)",
+            "**********************************************************************************************************",
+            "\n",
+            "This course will give you the resources to learn python and effectively use it analyze and visualize data! Start your career in Data Science!",
+            "    You'll get a full understanding of how to program with Python and how to use it in conjunction with scientific computing modules and libraries to analyze data. ",
+            "  You will also get lifetime access to over 100 example python code notebooks, new and updated videos, as well as future additions of various data analysis projects that you can use for a portfolio to show future employers! ",
+            "    By the end of this course you will: ",
+            "  - Have an understanding of how to program in Python. ",
+            "  - Know how to create and manipulate arrays using numpy and Python. ",
+            "  - Know how to use pandas to create and analyze data sets. ",
+            "  - Know how to use matplotlib and seaborn libraries to create beautiful data visualization. ",
+            "  - Have an amazing portfolio of example python data analysis projects! ",
+            "- Have an understanding of Machine Learning and SciKit Learn!",
+            "  With 100+ lectures and over 20 hours of information and more than 100 example python code notebooks, you will be excellently prepared for a future in data science! "
+          ]
         }
     
         

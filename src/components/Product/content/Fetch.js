@@ -30,8 +30,10 @@ class Fetch extends React.Component {
 
     render() {
         const { DataisLoaded, items } = this.state;
-        if (!DataisLoaded) return <div>
-            <h1> Pleses wait some time.... </h1> </div> ;
+        if (!DataisLoaded) return <div class="spinner-grow" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+        // <div> <h1> Pleses wait some time.... </h1> </div> ;
    
         return (
         <>

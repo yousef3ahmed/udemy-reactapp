@@ -27,7 +27,20 @@ function NavbarSection() {
 
           <Create></Create>
 
-        </div>
+          <div className='respon' >
+                <h2><b>E£269.99</b></h2>
+                <button type="submit" class="btn btn-primary" className=' btn btn-primary BUtn' >Add to cart</button>
+                <p className='FlayPPP' >1 day left at this price!</p>
+                <p className='FlayPPP' >30-Day Money-Back Guarantee</p>
+                
+                <div className='FlyColl' >
+                    <a href='#' className='resetAA'  > <b> Share </b>  </a>
+                    <a href='#' className='resetAA'  > <b> Gift this course </b>  </a>
+                    <a href='#' className='resetAA'  > <b> Apply Coupon </b>  </a>
+                  </div>
+              </div>
+          </div>
+ 
        
     </div>
   )

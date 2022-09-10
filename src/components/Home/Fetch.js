@@ -2,14 +2,17 @@ import React from 'react'
 import Course from './Cource';
 import '../../index.css';
 
-
+let dd = "";
 
 class Fetch extends React.Component {
-   
+    
+    
+    
     // Constructor 
     constructor(props) {
         super(props);
-   
+        
+        
         this.state = {
             items: [],
             DataisLoaded: false
@@ -31,19 +34,31 @@ class Fetch extends React.Component {
 
     render() {
         const { DataisLoaded, items } = this.state;
-        if (!DataisLoaded) return <div>
-            <h1> Pleses wait some time.... </h1> </div> ;
-   
+        if (!DataisLoaded) return <div class="spinner-grow" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+            
         return (
+           
         <>
             {
-                items.map((item) => ( 
-                    <Course id = { item.id }  Description = { item.Description } Image = { item.Image } Title = { item.Title }  ></Course>
-                ))
+                    items.map( ( item , index ) =>{
+
+                          dd = this.props.Search ;
+                          let vv = dd + "";
+                          vv = vv.substring(1);
+                          console.log( "fetch = " + vv );
+
+                          if( item.Description.includes( vv ) ){
+                            return(
+                                <Course id = { item.id }  Description = { item.Description } Image = { item.Image } Title = { item.Title }  ></Course>
+                            )
+                          }  
+                    })
             }
         </>
-    );
-}
+     )
+    }
 }
 
 

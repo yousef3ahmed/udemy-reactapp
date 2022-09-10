@@ -8,7 +8,6 @@ import FinalHome from './components/Home/FinalHome';
 import FinalProduct from './components/Product/FinalProduct';
 
 import reportWebVitals from './reportWebVitals';
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 
@@ -18,6 +17,7 @@ root.render(
     <Routes>
        <Route path="/" element={<FinalHome />} />
        <Route path="/product/:id" element={<FinalProduct />} />
+       <Route path= {`/?=/:param`} element = { <FinalHome /> } >  </Route>
     </Routes>
   </BrowserRouter>
 

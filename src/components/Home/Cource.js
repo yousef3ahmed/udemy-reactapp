@@ -5,10 +5,10 @@ import '../../index.css';
 
 
 
+
 function Course( props ){
     
-   
-    console.log( props.Description );
+ 
     
     let ID_ = props.id;
 

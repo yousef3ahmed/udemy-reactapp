@@ -31,8 +31,9 @@ class Fetch extends React.Component {
 
     render() {
         const { DataisLoaded, items } = this.state;
-        if (!DataisLoaded) return <div>
-            <h1> Pleses wait some time.... </h1> </div> ;
+        if (!DataisLoaded) return <div class="spinner-grow" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
 
        
         return (
@@ -53,7 +54,7 @@ class Fetch extends React.Component {
                                         </div>
 
                                         <div className='CreateDi' >
-                                          <p className='W' >Created by</p>
+                                          <p className='WNav' >Created by</p>
                                           <a href='#' > <p className='C' >  { item.Title } </p> </a>
                                         </div>
 

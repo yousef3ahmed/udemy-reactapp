@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from '../Home/Navbar';
+import Navbar from './Navbar';
 import NavbarSection from './Navbar/NavbarSection';
 import About from './About';
 import Footer from './Footer';
@@ -16,9 +16,7 @@ function FinalProduct() {
  
  
   return (
-    <>
-
-       
+    <>  
         <Navbar></Navbar>
         
         <NavbarSection></NavbarSection>
@@ -40,14 +38,9 @@ function FinalProduct() {
 
             <Fly></Fly>
           </div>
-          
-          
-          
            
         </div>
 
-        
- 
         <Footer></Footer>
     </>
   );
