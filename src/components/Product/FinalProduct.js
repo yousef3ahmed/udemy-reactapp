@@ -10,7 +10,7 @@ import Instructors from './Instructors/Instructors';
 import Requir from './requirements/Requir';
 import Descriptions from './Descriptions/Descriptions';
 import Fly from './Fly/Fly';
-import '../../index.css'
+import '../../index.css';
 
 function FinalProduct() {
  

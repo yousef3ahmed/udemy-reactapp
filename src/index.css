@@ -739,15 +739,58 @@
   display: none;
 }
 
+.CreatePop{
+  
+  height: auto;
+  background-color: #f7f9fa;
+  border-style: double;
+  border: solid ;
+  border-color: silver;
+  border-width: 1px;
+}
+
+.Pop_ya_pop{
+  margin: 10px;
+}
+
+.Popsmal{
+  font-size: small;
+  color: rgb(3, 119, 23);
+}
+.popdown{
+  margin-bottom: 10px;
+}
+
+.popP{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.POPmar{
+  margin-bottom: 6px;
+}
+
+.btnN-primary, .btnN-primary:hover, .btnN-primary:active, .btnN-primary:visited {
+  background-color: #a331a3 !important;
+  width: 140px;
+}
+
+.too{
+  margin-left: 90px;
+}
+
 /* -------------------------------------------------------------- */
 
+
+
+/* --------------------------------------------------------------- */
 
 
 .cards-wrapper {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: left;
 }
 
 .card img {
@@ -760,6 +803,8 @@
   border: none;
   border-radius: 0;
 }
+
+
 
 
 .checked {

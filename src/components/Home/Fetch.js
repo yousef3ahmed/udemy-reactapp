@@ -1,11 +1,10 @@
 import React from 'react'
 import Course from './Cource';
 import '../../index.css';
-
+import PopUp from './PopUp' ;
 let dd = "";
 
 class Fetch extends React.Component {
-    
     
     
     // Constructor 
@@ -51,7 +50,7 @@ class Fetch extends React.Component {
 
                           if( item.Description.includes( vv ) ){
                             return(
-                                <Course id = { item.id }  Description = { item.Description } Image = { item.Image } Title = { item.Title }  ></Course>
+                                <PopUp id = { item.id }  Description = { item.Description } Image = { item.Image } Title = { item.Title }  ></PopUp>
                             )
                           }  
                     })

@@ -19,7 +19,6 @@ function Navbar() {
   let dd = searchParams ;
   let vv = dd + "";
   vv = vv.substring(1);
-  console.log( "fucken = " + vv ) ;
 
   return (
     <>

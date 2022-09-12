@@ -1,4 +1,4 @@
-import Course from './Cource';
+
 import '../../index.css';
 import Fetch from './Fetch'
 
