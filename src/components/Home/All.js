@@ -4,20 +4,18 @@ import Fetch from './Fetch'
 
 import { useSearchParams } from "react-router-dom";
 
-let Python  = [ ] ;
   
 function  All( )  {
     
   const [searchParams , SetSearchParams] = useSearchParams();
-  let dd = searchParams ;
-  let vv = dd + "";
-  vv = vv.substring(1);
-  console.log( "searchParams = " + vv );
+ 
+  let search = searchParams.get( "search" ) ;
+  console.log( "searchParams in All  = " + search );
 
   
     return(
         <div className='cards-wrapper' >
-          <Fetch Search = { searchParams } ></Fetch>
+          <Fetch Search = { search } ></Fetch>
         </div>
  
     );

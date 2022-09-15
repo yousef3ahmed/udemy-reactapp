@@ -1,8 +1,6 @@
 import React from 'react'
-import Course from './Cource';
 import '../../index.css';
-import PopUp from './PopUp' ;
-let dd = "";
+import Course from './Course' ;
 
 class Fetch extends React.Component {
     
@@ -10,8 +8,7 @@ class Fetch extends React.Component {
     // Constructor 
     constructor(props) {
         super(props);
-        
-        
+          
         this.state = {
             items: [],
             DataisLoaded: false
@@ -41,19 +38,13 @@ class Fetch extends React.Component {
            
         <>
             {
-                    items.map( ( item , index ) =>{
+                items.map( ( item , index ) =>{
 
-                          dd = this.props.Search ;
-                          let vv = dd + "";
-                          vv = vv.substring(1);
-                          console.log( "fetch = " + vv );
-
-                          if( item.Description.includes( vv ) ){
-                            return(
-                                <PopUp id = { item.id }  Description = { item.Description } Image = { item.Image } Title = { item.Title }  ></PopUp>
-                            )
-                          }  
-                    })
+                        if( item.Description.includes( this.props.Search ) ){
+                        return(
+                            <Course id = { item.id }  Description = { item.Description } Image = { item.Image } Title = { item.Title }  ></Course>
+                        )}  
+                })
             }
         </>
      )

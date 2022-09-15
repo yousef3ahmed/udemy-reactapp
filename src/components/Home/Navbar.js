@@ -1,4 +1,4 @@
-import React from 'react';
+import React   from 'react';
 import '../../index.css';
 
 import Udemy_logo from "../../images/Udemy_logo.png";
@@ -12,14 +12,7 @@ import { useSearchParams } from "react-router-dom";
 
 function Navbar() {
  
-
- 
   const [searchParams , SetSearchParams] = useSearchParams();
- 
-  let dd = searchParams ;
-  let vv = dd + "";
-  vv = vv.substring(1);
-
   return (
     <>
         <div className='nav-container' >
@@ -32,28 +25,18 @@ function Navbar() {
            
             
             <div><a className="nav-text">Categories</a></div>
-            
-        
-                
+                        
             <div  className='fill'  >   
                 
-                <input   className='input1'   type="text" title="Search" placeholder="                                      Search for anything" id="search" /> 
+                <input   className='input1' onChange={ () => SetSearchParams({ "search" : document.getElementById( "search" ).value }) }   type="text" title="Search" placeholder="Search for anything" id="search" /> 
 
-
-               
-                <button className='BTNN'  onClick={ () => SetSearchParams({ "" : document.getElementById( "search" ).value }) }  >    
-                  
-                    <NavLink to = {`/?=${searchParams}`}  >
-
-                      <svg xmlns="http://www.w3.org/2000/svg"  width="16" height="16" class="bi bi-search mySearch" viewBox="0 0 16 16">
-                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
-                       </svg>
-                                        
-                    </NavLink>
-
-                  </button>
-                 
-
+                    <div className = 'WW'>                     
+                        <NavLink to = {`/?${searchParams}`}   >
+                          <svg xmlns="http://www.w3.org/2000/svg"  width="16" height="16" class="bi bi-search mySearch" viewBox="0 0 16 16">
+                              <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                          </svg>
+                        </NavLink> 
+                    </div>
             </div>
             
             <div><a className="nav-text">Udemy Business</a></div>

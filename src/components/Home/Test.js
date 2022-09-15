@@ -1,29 +1,45 @@
+import React from 'react'
 import Popup from 'reactjs-popup';
 import styled from 'styled-components';
 import '../../index.css'
 
 
 
-function Test() {
-  return (
-    <Popup
-    trigger={<button className="button"> Open Mkkkodal </button>}
-    modal
-    nested
-    // position="right top"
-    // on="hover"
-    // closeOnDocumentClick
-    // mouseLeaveDelay={300}
-    // mouseEnterDelay={0}
-    // contentStyle={{ padding: '0px', border: 'none' }}
-    // arrow={false}
-  >
+class FlavorForm extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {value: 'coconut'};
 
-    <div> kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk </div>
+    this.handleChange = this.handleChange.bind(this);
+    this.handleSubmit = this.handleSubmit.bind(this);
+  }
 
+  handleChange(event) {
+    this.setState({value: event.target.value});
+  }
 
-  </Popup>
-  )
+  handleSubmit(event) {
+    alert('Your favorite flavor is: ' + this.state.value);
+    event.preventDefault();
+  }
+
+  render() {
+    return (
+      <form onSubmit={this.handleSubmit}>
+        {/* <label>
+          Pick your favorite flavor:
+          <select value={this.state.value} onChange={this.handleChange}>
+            <option value="grapefruit">Grapefruit</option>
+            <option value="lime">Lime</option>
+            <option value="coconut">Coconut</option>
+            <option value="mango">Mango</option>
+          </select>
+        </label> */}
+        {/* <input type="submit" value="Submit" /> */}
+        <input    onChange={this.handleChange} textAlign = {"center"} className='input1'   type="text" title="Search" placeholder="                                      Search for anything" id="search" /> 
+      </form>
+    );
+  }
 }
 
-export default Test
+export default FlavorForm

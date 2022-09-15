@@ -6,7 +6,7 @@ import '../../index.css';
 import CreatePop from './CreatePop';
 
 
-function PopUp( props ) {
+function Course( props ) {
     
     let ID_ = props.id;
     return (
@@ -45,4 +45,4 @@ function PopUp( props ) {
   )
 }
 
-export default PopUp ;
+export default Course ;

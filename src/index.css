@@ -46,6 +46,8 @@
   border-radius: 70px;
   align-items: center;
   justify-content: center;
+  align-self: 'center';
+  text-align: center; 
 }
 
 .mySearch{
