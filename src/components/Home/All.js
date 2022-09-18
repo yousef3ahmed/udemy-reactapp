@@ -9,8 +9,9 @@ function  All( )  {
     
   const [searchParams , SetSearchParams] = useSearchParams();
  
-  let search = searchParams.get( "search" ) ;
-  console.log( "searchParams in All  = " + search );
+ 
+  let  search = ( searchParams.get( "search" ) == null ? "" : searchParams.get( "search" ) );  
+  console.log( "searchParams in All  = " + ( search == null ? "" : search ) );
 
   
     return(
