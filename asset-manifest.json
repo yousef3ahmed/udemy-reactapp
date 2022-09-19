@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/udemy-reactapp/static/css/main.39ab69a7.css",
-    "main.js": "/udemy-reactapp/static/js/main.1ed1ecd5.js",
+    "main.js": "/udemy-reactapp/static/js/main.5ef360d0.js",
     "static/js/787.28cb0dcd.chunk.js": "/udemy-reactapp/static/js/787.28cb0dcd.chunk.js",
     "static/media/lang.png": "/udemy-reactapp/static/media/lang.1c8dc25bde4b7a3ddc4b.png",
     "static/media/alarm.png": "/udemy-reactapp/static/media/alarm.88b2601ce77423e7aab0.png",
@@ -9,11 +9,11 @@
     "static/media/searchicon.jpg": "/udemy-reactapp/static/media/searchicon.efc2cd654c9068fd6a27.jpg",
     "index.html": "/udemy-reactapp/index.html",
     "main.39ab69a7.css.map": "/udemy-reactapp/static/css/main.39ab69a7.css.map",
-    "main.1ed1ecd5.js.map": "/udemy-reactapp/static/js/main.1ed1ecd5.js.map",
+    "main.5ef360d0.js.map": "/udemy-reactapp/static/js/main.5ef360d0.js.map",
     "787.28cb0dcd.chunk.js.map": "/udemy-reactapp/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.39ab69a7.css",
-    "static/js/main.1ed1ecd5.js"
+    "static/js/main.5ef360d0.js"
   ]
 }
