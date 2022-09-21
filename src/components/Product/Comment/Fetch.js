@@ -20,7 +20,7 @@ class Fetch extends React.Component {
     // ComponentDidMount is used to
     // execute the code 
     componentDidMount() {
-        fetch("http://localhost:5400/Python")
+        fetch("https://yousef3ahmed.github.io/virtualize-data-/db.json")
             .then((res) => res.json())
             .then((json) => {
                 this.setState({
